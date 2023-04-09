@@ -6,8 +6,6 @@ media = (nota1+nota2+nota3)/3
 print(f'Média: {media}')
 
 if media >= 7:
-    print(f'Situação: Aprovado!')
+    print('Situação: Aprovado!')
 else:
-    print(f'Situação: Reprovado!')
-
-
+    print('Situação: Reprovado!')
