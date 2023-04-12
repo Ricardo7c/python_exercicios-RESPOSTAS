@@ -18,4 +18,4 @@ todos = letras + numero + simbolo
 # Escolhe aleatoriamente o numero de caracteres digitado para formar a senha
 senha = ''.join(random.choices(todos, k=tamanho))
 
-print(senha)
+print('Senha:',senha)
