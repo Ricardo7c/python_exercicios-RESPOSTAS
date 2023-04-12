@@ -33,7 +33,7 @@ tentativas = []                      # A lista de tentativas é criada
 
 while True:                          
     print(vitima)                              
-    print('Letras você já tentou: ', *tentativas)   
+    print('Letras que você já tentou: ', *tentativas)   
     
 
     if morreu(vitima) or palavra == escondida:              # Quebra o laço caso a vitima morra ou acerte a palavra
